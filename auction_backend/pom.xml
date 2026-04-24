@@ -33,6 +33,9 @@
 	</properties>
 	<modules>
 		<module>model</module>
+		<module>repository</module>
+		<module>service</module>
+		<module>lib_common</module>
 		<module>client_auction_api</module>
 	</modules>
 	<dependencies>

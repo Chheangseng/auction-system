@@ -8,8 +8,21 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
         <module name="client_auction_api" />
+        <module name="model" />
+        <module name="repository" />
+        <module name="service" />
+      </profile>
+      <profile name="Annotation profile for lib_common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="lib_common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,7 +34,10 @@
       <module name="application" options="-parameters" />
       <module name="auction_backend" options="-parameters" />
       <module name="client_auction_api" options="-parameters" />
+      <module name="lib_common" options="-parameters" />
       <module name="model" options="-parameters" />
+      <module name="repository" options="-parameters" />
+      <module name="service" options="-parameters" />
     </option>
   </component>
 </project>
