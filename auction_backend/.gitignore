@@ -4,7 +4,7 @@ HELP.md
 ### Ignore all target directories everywhere ###
 target/
 out/
-
+**/target/
 ### STS ###
 .apt_generated
 .classpath
