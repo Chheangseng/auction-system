@@ -2,7 +2,11 @@ HELP.md
 .mvn/wrapper/maven-wrapper.jar
 
 ### Ignore all target directories everywhere ###
+*/target/
+*/*/target/
+*/*/*/target/
 **/target/
+
 !**/src/main/**/target/
 !**/src/test/**/target/
 
