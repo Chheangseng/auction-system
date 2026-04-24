@@ -1,0 +1,10 @@
+Auction system 
+	frontend (React)
+		- Client
+		- Admin
+
+	backend(spring boot)
+		- worker CRON job
+		- admin API
+		- client API
+		- Websocket
